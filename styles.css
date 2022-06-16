@@ -1,0 +1,108 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    position:relative;
+}
+
+.red {
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    padding: 20px;
+    padding-bottom:20px;
+    position: absolute;
+    left:500px;
+    top:50px;
+    border-radius:15px;
+    height:600px;
+    /* box-shadow: 0 0 10px; */
+
+}
+.red:hover{
+    box-shadow: 0px 0px 20px;
+}
+
+.main-img {
+    position: relative;
+    width: 300;
+    height: 350px;
+    border-radius: 15px;
+}
+.main-img:hover{
+    box-shadow: 0px 0px 20px;
+}
+
+.eth-sym {
+    display: inline;
+
+}
+
+.eth-value {
+    position: relative;
+    left:2px;
+    display: inline;
+    color:aqua;
+    padding-right: 130px;
+    font-style: inherit;
+
+
+    
+
+}
+
+.clock {
+    display: inline;
+
+}
+
+.time {
+    display: inline;
+    position: relative;
+    left:2px;
+    bottom:3px
+
+}
+
+h2{
+    color:white;
+    font-family: 'Montserrat';
+}
+
+p {
+    color:rgba(255, 255, 255, 0.555);
+    font-size: 18px;
+    font-family: 'Montserrat';
+    
+}
+.avatar{
+    display: inline;
+    width: 10%;
+    border:  2px white solid;
+    border-radius: 50%;
+    position: relative;
+    top:30px
+}
+.name{
+    display: inline;
+    position: relative;
+    left:10px;
+    top:15px
+}
+.hr{
+    /* background-color:hsl(215, 32%, 27%); */
+    background-color: hsl(215, 32%, 27%);
+    border-width: 0px;
+    height:3px;
+    position: relative;
+    top:20px
+}
+span{
+    color: aliceblue;
+}
+avatar-class{
+    position: relative;
+    top:50px
+}
+.second-layer{
+    position: relative;
+    top:10px;
+    bottom:10px
+}
